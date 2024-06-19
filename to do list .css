@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #123;
+    flex-direction: column;
+}
+.add-block{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.add-block-head p{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    width: 100%;
+}
+.add-block-text{
+    margin-right: 32%;
+    width: 70%;
+    height: 15%;
+    margin-left: 32%;
+}
+.add-block-text input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.add-block-button-no-input-msg{
+    height: 20%;
+    width: 50%;
+    display: flex;
+    margin-right: 5%;
+}
+.add-block-button-no-input-msg button{
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: cursive;
+}
+.add-block-button-no-input-msg button:hover{
+    transition-duration: 1s;
+    background-image: linear-gradient(to right, white, gray);
+    box-shadow: 0 0 20px gray;
+}
+.no-input-message{
+    color: red;
+    padding-right: 5%;
+    margin-top: 1%;
+
+}
+.hidden{
+    visibility: hidden;
+}
+.hr-div{
+    padding-bottom: 3%;
+}
+.hr-div hr{
+    height: 5px;
+    background-color: white;
+}
+.toDODiv{
+    display: flex;
+    flex-direction: column;
+}
+.toDOLIstDiv{
+    height: 70%;
+    width: 104%;
+    display: flex;
+    flex-direction: column;
+}
+.toDoDiv{
+    color: white;
+    margin-left: 5%;
+    display: flex; 
+    flex-direction: row; 
+    gap:1%; 
+    font-weight: bolder; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding-bottom: 2%
+}
+.toDODivinput{
+    width: 100%; 
+    background-color: transparent; 
+    color: white; 
+    border: none; 
+    font-weight: bolder; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.horizontalLines{
+    border-left: 6px solid white;
+    height: 20px;
+}
+.deleteButton{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: system-ui;
+}
+.cancelButton{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: system-ui;
+    margin-left: -70px;
+}
+.editButtonDiv{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: system-ui;
+}
+.cancelButton{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: system-ui;
+    margin-left: -70px;
+}
