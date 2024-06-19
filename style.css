@@ -85,7 +85,7 @@ body{
 }
 .toDOLIstDiv{
     height: 70%;
-    width: 104%;
+    width: 99%;
     display: flex;
     flex-direction: column;
 }
