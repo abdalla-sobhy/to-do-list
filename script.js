@@ -4,6 +4,7 @@ const tasksArray = [];
 addButton.addEventListener("click", function(){
     const textField = document.querySelector(".add-block-text input");
     applyText(textField.value);
+    textField.value = "";
 })
 
 let applyText = function(textField2){
