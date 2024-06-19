@@ -90,6 +90,7 @@ let applyText = function(textField2){
                 editButtonDiv.classList.remove("hidden");
                 cancelButtonDiv.classList.add("hidden");
                 okButtonDiv.classList.add("hidden");
+                noInput2ndmsgdiv.classList.add("hidden");
             })
             
         })
