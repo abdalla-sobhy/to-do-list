@@ -108,6 +108,7 @@ let applyText = function(textField2){
 }
 let tasksString = localStorage.getItem("task", tasksArray);
 tasksString = tasksString.split(",");
-while(tasksString.length >= 1 ){
+console.log(tasksString.length);
+while(tasksString.length > 1 ){
     applyText(tasksString.shift());
 }
