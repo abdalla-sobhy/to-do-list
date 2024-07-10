@@ -145,3 +145,31 @@ body{
     font-family: system-ui;
     margin-left: -70px;
 }
+@media (max-width: 1024px) {
+    .add-block-button-no-input-msg{
+        margin-right: 17%;
+    }
+    .toDODivinput{
+        font-size: 2rem;
+    }
+    .deleteButton,
+    .editButtonDiv,
+    .cancelButton{
+        font-size: 21px;
+    }
+    .okButtonDiv{
+        padding-left: 1rem;
+    }
+    .cancelButtonDiv{
+        margin-left: -1rem;
+    }
+    .add-block-text input{
+        font-size: 1.5rem;
+    }
+    .toDOLIstDiv{
+        gap: 3%;
+    }
+    .hr-div{
+        margin-top: -5rem;
+    }
+}
